@@ -1,0 +1,107 @@
+@charset "utf-8";
+* 
+{
+	margin: 0;
+	padding: 0;
+}
+
+h1 {  
+	margin: 5px;
+	padding: 5px;
+	color: blue; 
+	font-family: Arial;
+	font-weight: bold; 
+	text-align: center 
+} 
+
+h2 { 
+	margin: 10px;
+	padding: 10px;
+	color: #800000; 
+	font-family: Verdana;
+	font-weight: bold; 
+	text-align: center;
+} 
+
+h4 {
+	margin: 10px;
+	padding: 10px;
+	color: #800000; 
+	font-family: Arial;
+	font-weight: bold;
+	text-align: center} 
+
+	body {
+		margin: 10px;
+		padding: 10px; 
+		background: snow;
+		font-family: Verdana;
+		font-size: 14pt;
+		font-weight: bold;}
+		body.img {
+			margin: 10px;
+			padding: 10px; 
+			background-image: url("../img/atom.jpg");
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+		}
+		a:link 
+		{color: blue;}
+		a:visited 
+		{color: #800000;} 
+		a:hover 
+		{color: grey;}
+		a:active 
+		{color: black;}
+
+
+		ol {
+			margin: 10px;
+			padding: 10px; 
+			list-style-type: decimal;
+		}
+		ul {
+			margin: 10px;
+			padding: 10px; 
+			list-style-type: circle bold;
+		}
+		img.center {
+			display: block;
+			margin: auto;
+		}
+		img.left {
+			float: left;
+			margin: 15px ;
+			padding: 5px
+		}
+		img.right {
+			float: right;
+			margin: 15px;
+			padding: 5px ;
+		}
+		img.none {
+			margin: 15px;
+			padding: 5px;
+		}
+		div.class1 {
+			margin: 17px;
+			padding: 10px;
+			text-align: center;
+		}
+		embed,iframe {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		table {
+			height: 50px; 
+			background: #fc0; 
+			padding: 7px; 
+			border: 1px solid #333; 
+		}
+		footer { 
+			display: block;
+			font-family: Verdana;
+			font-size: 8pt;
+			font-style: italic;
+		}
